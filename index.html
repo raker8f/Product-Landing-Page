@@ -1,0 +1,88 @@
+<html lang="en">
+  <head>
+    <meta charset="UFT-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <div class="logo">
+          <img 
+            id="header-img" 
+            src="https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG" 
+            alt="Coffee Logo">
+          <span class="brand-name">Coffee Roasters</span>
+        </div>
+        <div id="nav-link">
+          <a class="nav-link" href="#features">Features</a>
+          <a class="nav-link" href="#video">How to do?</a>
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <input id="email"
+         type="email"
+         name="email"
+         placeholder="Enter yor email"
+         required />
+         <input id="submit" type="submit" value="Send" />
+      </form>
+      <section id="features">
+        <h2>Why Choose Our Coffee?</h2>
+
+        <article class="feature">
+          <h3>Freshly Roasted</h3>
+          <p>Small-batch roasting every week to ensure full aroma in every cup.</p>
+        </article>
+
+        <article class="feature">
+          <h3>Fair Trade</h3>
+          <p>Supporting sustainable farming and fair partnerships with coffee growers.</p>
+        </article>
+
+        <article class="feature">
+          <h3>Variety of Choices</h3>
+          <p>From espresso to pour-over single origins, find the flavor that suits you.</p>
+        </article>
+      </section>
+      <iframe
+       id="video"
+       width="560" 
+       height="315" 
+        src="https://www.youtube.com/embed/FQWhY5mPGRg"
+       title="A beginner's guide to POUR-OVER COFFEE"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+       allowfullscreen></iframe>
+      <section id="pricing">
+        <h2>Our Pricing Plans</h2>
+        <div id="pricing-plans">
+          <div class="pricing-plan">
+            <h3>Single Pack</h3>
+            <p class="price">$12</p>
+            <p>200g • Perfect for first-timers</p>
+            <button>Buy Now</button>
+          </div>
+
+          <div class="pricing-plan">
+            <h3>Classic Monthly</h3>
+            <p class="price">$30</p>
+            <p>3 packs • Enjoy a variety every month</p>
+            <button>Buy Now</button>
+          </div>
+
+          <div class="pricing-plan">
+            <h3>Coffee Lover Bundle</h3>
+            <p class="price">$55</p>
+            <p>6 packs • The best deal for daily coffee lovers</p>
+            <button>Buy Now</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
